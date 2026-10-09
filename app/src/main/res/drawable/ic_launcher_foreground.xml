@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Progress ring at three-quarters with a clock inside: the same ring the home screen uses.
+    Everything sits inside the 66dp safe circle so no launcher mask clips it.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Ring track. -->
+    <path
+        android:pathData="M54,27a27,27 0 1,0 0.01,0z"
+        android:strokeColor="#40FFFFFF"
+        android:strokeWidth="7.5"
+        android:fillColor="#00000000" />
+
+    <!-- Completed arc: from 12 o'clock clockwise round to 9 o'clock. -->
+    <path
+        android:pathData="M54,27 A27,27 0 1,1 27,54"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="7.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- "You are here" marker at the end of the arc. -->
+    <path
+        android:pathData="M27,54m-5.5,0a5.5,5.5 0 1,0 11,0a5.5,5.5 0 1,0 -11,0z"
+        android:fillColor="#FFD166" />
+
+    <!-- Clock hands: hour hand toward 10, minute hand toward 2. -->
+    <path
+        android:pathData="M54,54 L45.5,46.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M54,54 L63,41"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Centre pin. -->
+    <path
+        android:pathData="M54,54m-3.2,0a3.2,3.2 0 1,0 6.4,0a3.2,3.2 0 1,0 -6.4,0z"
+        android:fillColor="#FFFFFF" />
+</vector>

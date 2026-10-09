@@ -1,0 +1,21 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.apk
+*.ap_
+*.aab
+app/build
+
+# Editor and agent state
+.cursor/
+
+# Signing material
+*.jks
+*.keystore
+*.pem

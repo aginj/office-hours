@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Office Hours</string>
+    <string name="widget_title">Office Hours</string>
+    <string name="widget_description">Break left before the shift ends, and remaining office time, from greytHR</string>
+    <string name="in_office">In office</string>
+    <string name="remaining">Remaining</string>
+    <string name="widget_refresh">Refresh</string>
+    <string name="widget_signed_out">Open the app to sign in</string>
+</resources>
